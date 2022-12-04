@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #3a455b;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body{
+  background-color: #FBFBFD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1d1d1f;
+}
+
+.icloud{
+  display: flex;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  font-size: 15px;
+  font-weight: 300;
+  flex-direction: column;
+  inline-size: 640px;
+  block-size: 0;
+  height: 779px;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  margin-block-start: 10px;
+  width: 640px;
+  border-radius: 34px;
+  opacity: 100;
+  background-color: #fff;
+  box-shadow: 0 11px 34px 0 rgb(0 0 0 / 20%);
+  backdrop-filter: blur(10px);
+}
+.novios{
+  max-width: 500px;
+  border-radius: 500px;
+}
+
+.texto{
+  margin:auto;
+  text-align: center;
+  color:#1d1d1f;
+  margin-top: 10%;
+}
+.linea {
+  border-top: 1px solid #E4E4E4;
+  height: 2px;
+  max-width: 90%;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.input-container{
+  font-size: 17px;
+  line-height: 1.29412;
+  font-weight: 400;
+  letter-spacing: -.021em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #1d1d1f;
+  text-align: left;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: #fff;
+  background-clip: padding-box;
+  margin-left: 5%;
+}
+.ayuda{
+  font-size: 30px;
+  color: #1d1d1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
